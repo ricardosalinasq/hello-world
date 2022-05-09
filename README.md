@@ -112,6 +112,7 @@ done()
 
 #Imagen
 ![Titulo]
+
 (https://foodandtravel.mx/wp-content/uploads/2017/02/Tacos-tradicionales.jpg)
 
 #Tabla
