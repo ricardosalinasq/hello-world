@@ -25,7 +25,7 @@ def square(start, end):
     end_fill()
 
 
-def circle(start, end):
+def circle2(start, end):
     """Draw circle from start to end."""
     pass  # TODO
 
@@ -56,12 +56,19 @@ def tap(x, y):
 def store(key, value):
     """Store value in state at key."""
     state[key] = value
+up()
+goto(-200,180)
+color("#9604F9")
+write('Ricardo Salinas', font = ("Arial", 20))
 
-
+#Diccionario del estado actual del paint
 state = {'start': None, 'shape': line}
-setup(420, 420, 370, 0)
+setup(420, 420, 550, 0)
+#Programacion basada en eventos!
+#Funcion que atiende los eventos del mouse
 onscreenclick(tap)
 listen()
+#Funcion que atiende los eventos del teclado
 onkey(undo, 'u')
 onkey(lambda: color('black'), 'K')
 onkey(lambda: color('white'), 'W')
@@ -70,7 +77,8 @@ onkey(lambda: color('blue'), 'B')
 onkey(lambda: color('red'), 'R')
 onkey(lambda: store('shape', line), 'l')
 onkey(lambda: store('shape', square), 's')
-onkey(lambda: store('shape', circle), 'c')
+onkey(lambda: store('shape', circle2), 'c')
 onkey(lambda: store('shape', rectangle), 'r')
 onkey(lambda: store('shape', triangle), 't')
+#Simepre debe ser la ultima instruccion glutmainloop()
 done()
