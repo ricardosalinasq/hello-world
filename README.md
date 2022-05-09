@@ -3,8 +3,8 @@
 ## Ricardo Salinas Quiroga - A01284657 - ITD 2do Semestre
 ### Monterrey
 
-** 2. Bold **
-* 3. Italica *
+**2. Bold**
+*3. Italica*
 _italica_
 > blockquote
 
@@ -107,10 +107,12 @@ done()
 
 ---
 # Link
-[Titulo] (https://github.com/)
+[Titulo] 
+(https://github.com/)
 
 #Imagen
-![Titulo] (https://foodandtravel.mx/wp-content/uploads/2017/02/Tacos-tradicionales.jpg)
+![Titulo]
+(https://foodandtravel.mx/wp-content/uploads/2017/02/Tacos-tradicionales.jpg)
 
 #Tabla
 | Syntax | Description |
