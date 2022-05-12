@@ -2,6 +2,7 @@ from turtle import *
 
 from freegames import vector
 
+print("Hello World")
 
 def line(start, end):
     """Draw line from start to end."""
